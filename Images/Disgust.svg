@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="113" viewBox="0 0 87 113">
+  <g id="Disgust" transform="translate(-617 -721)">
+    <g id="Ellipse_35" data-name="Ellipse 35" transform="translate(617 721)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="43.5" cy="43.5" r="43.5" stroke="none"/>
+      <circle cx="43.5" cy="43.5" r="43" fill="none"/>
+    </g>
+    <text id="Disgust-2" data-name="Disgust" transform="translate(619 804)" fill="#015715" font-size="25" font-family="GillSans-SemiBold, Gill Sans" font-weight="600"><tspan x="0" y="24">Disgust</tspan></text>
+    <path id="Path_8" data-name="Path 8" d="M3154.118,4140s20.5-22.059,39.861,0" transform="translate(-2512.118 -3351)" fill="none" stroke="#070000" stroke-width="1"/>
+    <path id="Path_9" data-name="Path 9" d="M3288.937,4113h-13.724s13.348-3.3,16-13.912" transform="translate(-2604.213 -3352.852)" fill="none" stroke="#080000" stroke-width="1"/>
+    <path id="Path_10" data-name="Path 10" d="M3277.489,4113h13.724s-13.348-3.3-16-13.912" transform="translate(-2639.555 -3352.852)" fill="none" stroke="#080000" stroke-width="1"/>
+  </g>
+</svg>

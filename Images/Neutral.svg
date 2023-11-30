@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="114" viewBox="0 0 91 114">
+  <g id="Neutral" transform="translate(-614 -875)">
+    <g id="Ellipse_39" data-name="Ellipse 39" transform="translate(614 875)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="43.5" cy="43.5" r="43.5" stroke="none"/>
+      <circle cx="43.5" cy="43.5" r="43" fill="none"/>
+    </g>
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="7" cy="7" r="7" transform="translate(668 900)" fill="#070101"/>
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="7" cy="7" r="7" transform="translate(632 900)" fill="#070101"/>
+    <text id="Neutral-2" data-name="Neutral" transform="translate(617 959)" fill="#a5a5a5" font-size="25" font-family="GillSans-SemiBold, Gill Sans" font-weight="600"><tspan x="0" y="24">Neutral</tspan></text>
+    <rect id="Rectangle_44" data-name="Rectangle 44" width="3.821" height="41.572" rx="1.91" transform="matrix(0, 1, -1, 0, 678.286, 932.362)" fill="#070101"/>
+  </g>
+</svg>

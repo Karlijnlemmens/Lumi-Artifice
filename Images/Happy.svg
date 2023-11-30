@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="111" viewBox="0 0 87 111">
+  <g id="Happy" transform="translate(-498 -655)">
+    <g id="Ellipse_55" data-name="Ellipse 55" transform="translate(498 655)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="43.5" cy="43.5" r="43.5" stroke="none"/>
+      <circle cx="43.5" cy="43.5" r="43" fill="none"/>
+    </g>
+    <path id="Subtraction_6" data-name="Subtraction 6" d="M-2845.5-3422a23.865,23.865,0,0,1-12.374-3.164c-3.305-2.04-5.125-4.752-5.125-7.637a6.8,6.8,0,0,1,.107-1.2h34.786a6.811,6.811,0,0,1,.107,1.2c0,2.885-1.82,5.6-5.126,7.637A23.868,23.868,0,0,1-2845.5-3422Z" transform="translate(3388 4143)" fill="#070101"/>
+    <text id="Happy-2" data-name="Happy" transform="translate(505 736)" fill="#fcf206" font-size="25" font-family="GillSans-SemiBold, Gill Sans" font-weight="600"><tspan x="0" y="24">Happy</tspan></text>
+    <path id="Subtraction_7" data-name="Subtraction 7" d="M-2864.338-3434.47h0A7.007,7.007,0,0,1-2866-3439a7.008,7.008,0,0,1,7-7,7.008,7.008,0,0,1,7,7,7,7,0,0,1-1.662,4.529A23.481,23.481,0,0,0-2859-3435a23.42,23.42,0,0,0-5.337.53Z" transform="translate(2070.261 4896.364) rotate(20)" fill="#070101"/>
+    <path id="Subtraction_8" data-name="Subtraction 8" d="M-2864.338-3434.47h0A7.007,7.007,0,0,1-2866-3439a7.008,7.008,0,0,1,7-7,7.008,7.008,0,0,1,7,7,7,7,0,0,1-1.662,4.529A23.481,23.481,0,0,0-2859-3435a23.42,23.42,0,0,0-5.337.53Z" transform="translate(4569.35 2595.528) rotate(-25)" fill="#070101"/>
+    <rect id="Rectangle_48" data-name="Rectangle 48" width="2.991" height="8.973" rx="1.496" transform="matrix(0.656, 0.755, -0.755, 0.656, 519.714, 673.616)" fill="#070101"/>
+    <rect id="Rectangle_49" data-name="Rectangle 49" width="2.991" height="8.973" rx="1.496" transform="translate(570.058 678.103) rotate(120)" fill="#070101"/>
+  </g>
+</svg>

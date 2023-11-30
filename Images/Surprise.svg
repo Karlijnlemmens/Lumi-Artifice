@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="113" viewBox="0 0 92 113">
+  <g id="Surprise" transform="translate(-318 -650)">
+    <g id="Ellipse_51" data-name="Ellipse 51" transform="translate(320 650)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="43.5" cy="43.5" r="43.5" stroke="none"/>
+      <circle cx="43.5" cy="43.5" r="43" fill="none"/>
+    </g>
+    <circle id="Ellipse_52" data-name="Ellipse 52" cx="7" cy="7" r="7" transform="translate(374 675)" fill="#070101"/>
+    <circle id="Ellipse_53" data-name="Ellipse 53" cx="7" cy="7" r="7" transform="translate(338 675)" fill="#070101"/>
+    <ellipse id="Ellipse_54" data-name="Ellipse 54" cx="9" cy="11" rx="9" ry="11" transform="translate(355 696)" fill="#070101"/>
+    <text id="Surprise-2" data-name="Surprise" transform="translate(318 733)" fill="#f402f4" font-size="25" font-family="GillSans-SemiBold, Gill Sans" font-weight="600"><tspan x="0" y="24">Surprise</tspan></text>
+    <rect id="Rectangle_45" data-name="Rectangle 45" width="2.991" height="8.973" rx="1.496" transform="matrix(0.656, 0.755, -0.755, 0.656, 342.214, 667.243)" fill="#070101"/>
+    <rect id="Rectangle_46" data-name="Rectangle 46" width="2.991" height="8.973" rx="1.496" transform="translate(392.558 671.729) rotate(120)" fill="#070101"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="397" height="397" viewBox="0 0 397 397">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.794" y1="0.102" x2="0.205" y2="0.896" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8e8e8e"/>
+      <stop offset="0.768" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1" y1="0.202" x2="-0.061" y2="0.523" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcf9f9"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="main-button-off" transform="translate(-186 -314)">
+    <g id="Component_1_3" data-name="Component 1 – 3" transform="translate(186 314)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="198.5" cy="198.5" r="198.5" opacity="0.785" fill="url(#linear-gradient)"/>
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(13 13)" fill="#080404" stroke="#707070" stroke-width="1">
+        <circle cx="185" cy="185" r="185" stroke="none"/>
+        <circle cx="185" cy="185" r="184.5" fill="none"/>
+      </g>
+      <path id="Intersection_1" data-name="Intersection 1" d="M-2821.254,556.49l196.707-270.744A185.075,185.075,0,0,1-2506.971,362.1l-205.352,282.643A185.507,185.507,0,0,1-2821.254,556.49Z" transform="translate(2856.113 -270.245)" opacity="0.495" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

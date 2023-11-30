@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyword Selection Panel</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        text-align: center;
+      }
+
+      h1 {
+        color: #0F4470;
+        font-size: 60px; /* Adjust the font size */
+      }
+      h2 {
+        color: #0F4470;
+        font-size: 40px; /* Adjust the font size */
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      li {
+        margin: 10px;
+      }
+
+      button {
+        background-color: #0F4470;
+        color: white;
+        padding: 15px;
+        border: none;
+        cursor: pointer;
+        font-size: 22px; /* Adjust the font size for the button text */
+        border-radius: 8px;
+      }
+
+      button:hover {
+        background-color: #0F4470;
+      }
+
+      #NextButton {
+        margin-top: 20px;
+        padding: 30px; /* Adjust the padding for the NextButton */
+        font-size: 40px; /* Adjust the font size for the NextButton text */
+        border-radius: 12px;
+      }
+
+      #selectedKeywords li {
+        font-size: 30px; /* Adjust the font size for the selected keywords */
+
+        
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pick three keywords</h1>
+    <div id="keywordSelection">
+      <h2>Step 1: Choose Your Keywords</h2>
+      <ul id="keywords"></ul>
+
+      <h2>Selected Keywords</h2>
+      <ul id="selectedKeywords"></ul>
+
+      <button id="NextButton" onclick="nextSelection()">Next</button>
+    </div>
+
+    <script>
+        const availableKeywords = [
+          "Forests", "Mountainscapes", "Oceans and Underwater Worlds", "Nebulas", "Skylines",
+          "Street Scenes", "Futuristic Cities", "Abstract Florals", "Botanical Gardens", "Microscopic Plant Life",
+          "Imaginary Creatures", "Expressive Emotions", "Cultural Diversity", "Circuit Board Aesthetics",
+          "AI Symbols and Concepts", "Futuristic Technology", "Forests", "Mountainscapes", "Oceans and Underwater Worlds",
+          "Nebulas", "Skylines", "Street Scenes", "Futuristic Cities", "Abstract Florals", "Botanical Gardens",
+          "Microscopic Plant Life", "Imaginary Creatures", "Expressive Emotions", "Cultural Diversity",
+          "Circuit Board Aesthetics", "AI Symbols and Concepts", "Futuristic Technology",
+        ];
+        const selectedKeywords = [];
+      
+        function updateKeywordList() {
+          const keywordsList = document.getElementById("keywords");
+          keywordsList.innerHTML = "";
+      
+          availableKeywords.forEach((keyword) => {
+            const li = document.createElement("li");
+            li.innerHTML = `<button onclick="selectKeyword('${keyword}')">${keyword}</button>`;
+            keywordsList.appendChild(li);
+          });
+      
+          const selectedKeywordsList =
+            document.getElementById("selectedKeywords");
+          selectedKeywordsList.innerHTML = "";
+      
+          selectedKeywords.forEach((keyword) => {
+            const li = document.createElement("li");
+            li.textContent = keyword;
+            selectedKeywordsList.appendChild(li);
+          });
+        }
+      
+        function selectKeyword(keyword) {
+          if (
+            selectedKeywords.length < 5 &&
+            !selectedKeywords.includes(keyword)
+          ) {
+            selectedKeywords.push(keyword);
+            updateKeywordList();
+          }
+        }
+      
+        function nextSelection() {
+          if (selectedKeywords.length > 0) {
+            // Redirect to end.html
+            window.location.href = 'end.html';
+          } else {
+            alert("Please select at least one keyword before Nexting.");
+          }
+        }
+      
+        window.onload = updateKeywordList;
+      </script>
+
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surprise</title>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; /* Align content to the right */
+        justify-content: flex-end; /* Align content at the bottom */
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: space-between; /* Add space between images */
+        width: 100%;
+      }
+
+      img {
+        width: 900px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      #sad-image {
+        order: 1; /* Set the order to 1 to move it to the left */
+      }
+
+      .button-container {
+        display: flex;
+        justify-content: flex-end; /* Align buttons to the right */
+        margin-top: 10px;
+      }
+
+      .button-container img {
+        width: 150px; /* Adjust the width of the buttons */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 10px; /* Adjust spacing between buttons */
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img
+        src="Images/outcome surprise.svg"
+        id="sad-image"
+        alt="Lumi reacting to someone being sad"
+      />
+    </div>
+
+    <div class="button-container">
+      <img src="Images/Back.svg" alt="Back" onclick="goToEmotionDetector()" />
+      <img src="Images/Next.svg" alt="Next" onclick="goToGlassBox()" />
+    </div>
+
+    <script>
+      // Function to navigate to 2.emotiondetector.html
+      function goToEmotionDetector() {
+        window.location.href = "2.emotiondetector.html";
+      }
+
+      // Function to navigate to 2.glassbox.html
+      function goToGlassBox() {
+        window.location.href = "2.glassbox.html";
+      }
+    </script>
+  </body>
+</html>

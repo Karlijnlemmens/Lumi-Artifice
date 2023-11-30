@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="115" viewBox="0 0 87 115">
+  <g id="Group_3" data-name="Group 3" transform="translate(-24 -739)">
+    <g id="Ellipse_72" data-name="Ellipse 72" transform="translate(24 739)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="43.5" cy="43.5" r="43.5" stroke="none"/>
+      <circle cx="43.5" cy="43.5" r="43" fill="none"/>
+    </g>
+    <path id="Subtraction_9" data-name="Subtraction 9" d="M-2864.338-3434.47h0A7.007,7.007,0,0,1-2866-3439a7.008,7.008,0,0,1,7-7,7.008,7.008,0,0,1,7,7,7,7,0,0,1-1.662,4.529A23.481,23.481,0,0,0-2859-3435a23.42,23.42,0,0,0-5.337.53Z" transform="translate(2946 4214)" fill="#070101"/>
+    <path id="Path_11" data-name="Path 11" d="M3013,4150.25s11.046-24.45,30.452,0" transform="translate(-2957.97 -3344.817)" fill="none" stroke="#0a0101" stroke-width="1"/>
+    <path id="Subtraction_10" data-name="Subtraction 10" d="M-2864.338-3434.47h0A7.007,7.007,0,0,1-2866-3439a7.008,7.008,0,0,1,7-7,7.008,7.008,0,0,1,7,7,7,7,0,0,1-1.662,4.529A23.481,23.481,0,0,0-2859-3435a23.42,23.42,0,0,0-5.337.53Z" transform="translate(2910 4214.117)" fill="#070101"/>
+    <rect id="Rectangle_54" data-name="Rectangle 54" width="2.991" height="8.973" rx="1.496" transform="matrix(0.656, 0.755, -0.755, 0.656, 46.405, 761.616)" fill="#070101"/>
+    <rect id="Rectangle_55" data-name="Rectangle 55" width="2.991" height="8.973" rx="1.496" transform="translate(96.748 766.103) rotate(120)" fill="#070101"/>
+    <text id="Sad" transform="translate(45 824)" fill="#25acf4" font-size="25" font-family="GillSans-SemiBold, Gill Sans" font-weight="600"><tspan x="0" y="24">Sad</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emotion Detector</title>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end; /* Align content at the bottom */
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+      }
+
+      .emotion-row {
+        display: flex;
+        margin-top: 20px; /* Adjust the margin as needed */
+        align-items: center; /* Center the images horizontally in the row */
+      }
+
+      .emotion-row img {
+        width: 130px; /* Adjust the width of each emotion image */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 20px; /* Adjust the margin between images as needed */
+        cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+      }
+
+      #lumi-emotion {
+        /* Additional styles for the Lumi emotion image */
+        margin-top: 140px; /* Add margin between the emotions and Lumi image */
+        margin-left: 2px; /* Adjust the left margin for Lumi */
+        margin-right: auto; /* Ensure Lumi takes as much space as possible to the left */
+        width: 800px; /* Adjust the width for a larger Lumi image */
+        height: auto; /* Maintain aspect ratio */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Emotions in the first row -->
+    <div class="emotion-row">
+      <img src="Images/Sad.svg" alt="Sad Emotion" onclick="goToSadPage()" />
+      <img src="Images/Fear.svg" alt="Fear Emotion" onclick="goToFearPage()" />
+      <img
+        src="Images/Angry.svg"
+        alt="Angry Emotion"
+        onclick="goToAngryPage()"
+      />
+    </div>
+
+    <!-- Emotions in the second row -->
+    <div class="emotion-row">
+      <img
+        src="Images/Disgust.svg"
+        alt="Disgust Emotion"
+        onclick="goToDisgustPage()"
+      />
+      <img
+        src="Images/Neutral.svg"
+        alt="Neutral Emotion"
+        onclick="goToNeutralPage()"
+      />
+      <img
+        src="Images/Surprise.svg"
+        alt="Surprise Emotion"
+        onclick="goToSurprisePage()"
+      />
+      <img
+        src="Images/Happy.svg"
+        alt="Happy Emotion"
+        onclick="goToHappyPage()"
+      />
+    </div>
+
+    <img
+      src="Images/Lumi emotion 1.svg"
+      id="lumi-emotion"
+      alt="Lumi saying Please, stand still and look at the camera"
+    />
+
+    <script>
+      // Function to navigate to 2.sad.html
+      function goToSadPage() {
+        window.location.href = "2.sad.html";
+      }
+
+      // Function to navigate to 2.fear.html
+      function goToFearPage() {
+        window.location.href = "2.fear.html";
+      }
+
+      // Function to navigate to 2.angry.html
+      function goToAngryPage() {
+        window.location.href = "2.angry.html";
+      }
+
+      // Function to navigate to 2.disgust.html
+      function goToDisgustPage() {
+        window.location.href = "2.disgust.html";
+      }
+
+      // Function to navigate to 2.neutral.html
+      function goToNeutralPage() {
+        window.location.href = "2.neutral.html";
+      }
+
+      // Function to navigate to 2.surprise.html
+      function goToSurprisePage() {
+        window.location.href = "2.surprise.html";
+      }
+
+      // Function to navigate to 2.happy.html
+      function goToHappyPage() {
+        window.location.href = "2.happy.html";
+      }
+    </script>
+  </body>
+</html>

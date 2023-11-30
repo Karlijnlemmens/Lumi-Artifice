@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="117" viewBox="0 0 87 117">
+  <g id="Fear" transform="translate(-126 -731)">
+    <g id="Ellipse_77" data-name="Ellipse 77" transform="translate(126 731)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="43.5" cy="43.5" r="43.5" stroke="none"/>
+      <circle cx="43.5" cy="43.5" r="43" fill="none"/>
+    </g>
+    <circle id="Ellipse_78" data-name="Ellipse 78" cx="7" cy="7" r="7" transform="translate(180 758)" fill="#070101"/>
+    <circle id="Ellipse_79" data-name="Ellipse 79" cx="7" cy="7" r="7" transform="translate(144 758)" fill="#070101"/>
+    <circle id="Ellipse_80" data-name="Ellipse 80" cx="9" cy="9" r="9" transform="translate(161 781)" fill="#070101"/>
+    <rect id="Rectangle_56" data-name="Rectangle 56" width="6.991" height="20.973" rx="3.496" transform="translate(180.975 754.817) rotate(-45)" fill="#070101"/>
+    <rect id="Rectangle_57" data-name="Rectangle 57" width="6.991" height="20.973" rx="3.496" transform="matrix(0.656, 0.755, -0.755, 0.656, 152.206, 750.243)" fill="#070101"/>
+    <g id="Ellipse_81" data-name="Ellipse 81" transform="translate(126 731)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="43.5" cy="43.5" r="43.5" stroke="none"/>
+      <circle cx="43.5" cy="43.5" r="43" fill="none"/>
+    </g>
+    <circle id="Ellipse_82" data-name="Ellipse 82" cx="7" cy="7" r="7" transform="translate(180 758)" fill="#070101"/>
+    <circle id="Ellipse_83" data-name="Ellipse 83" cx="7" cy="7" r="7" transform="translate(144 758)" fill="#070101"/>
+    <ellipse id="Ellipse_84" data-name="Ellipse 84" cx="15" cy="8.5" rx="15" ry="8.5" transform="translate(155 780)" fill="#070101"/>
+    <rect id="Rectangle_58" data-name="Rectangle 58" width="6.991" height="20.973" rx="3.496" transform="translate(180.975 754.817) rotate(-45)" fill="#070101"/>
+    <rect id="Rectangle_59" data-name="Rectangle 59" width="6.991" height="20.973" rx="3.496" transform="matrix(0.656, 0.755, -0.755, 0.656, 152.206, 750.243)" fill="#070101"/>
+    <text id="Fear-2" data-name="Fear" transform="translate(144 818)" fill="#030101" font-size="25" font-family="GillSans-SemiBold, Gill Sans" font-weight="600"><tspan x="0" y="24">Fear</tspan></text>
+    <ellipse id="Ellipse_85" data-name="Ellipse 85" cx="16" cy="4" rx="16" ry="4" transform="translate(154 793)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>glass box</title>
+
+    <style>
+      body {
+        display: flex;
+        align-items: flex-end; /* Align content at the bottom */
+        justify-content: space-between; /* Add space between images */
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+        padding: 0 20px; /* Add padding to the sides */
+      }
+
+      img {
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      #glassbox-image {
+        width: 800px; /* Adjust the width of the glassbox image */
+      }
+
+      #next-image {
+        width: 150px; /* Adjust the width of the next image */
+        cursor: pointer;
+        margin-bottom: 20px; /* Move the next image slightly up */
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="Images/2.glassbox.svg"
+      id="glassbox-image"
+      alt="Lumi reacting to someone being sad"
+    />
+    <img
+      src="Images/Next.svg"
+      id="next-image"
+      alt="Next"
+      onclick="goToAlmostdone()"
+    />
+
+    <script>
+      // Function to navigate to 3.almostdone.html
+      function goToAlmostdone() {
+        window.location.href = "3.almostdone.html";
+      }
+    </script>
+  </body>
+</html>
