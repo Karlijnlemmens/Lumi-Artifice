@@ -18,11 +18,11 @@
       }
 
       h1 {
-        color: #0F4470;
+        color: #0f4470;
         font-size: 60px; /* Adjust the font size */
       }
       h2 {
-        color: #0F4470;
+        color: #0f4470;
         font-size: 40px; /* Adjust the font size */
       }
       ul {
@@ -38,7 +38,7 @@
       }
 
       button {
-        background-color: #0F4470;
+        background-color: #0f4470;
         color: white;
         padding: 15px;
         border: none;
@@ -48,7 +48,7 @@
       }
 
       button:hover {
-        background-color: #0F4470;
+        background-color: #0f4470;
       }
 
       #NextButton {
@@ -60,8 +60,6 @@
 
       #selectedKeywords li {
         font-size: 30px; /* Adjust the font size for the selected keywords */
-
-        
       }
     </style>
   </head>
@@ -98,50 +96,49 @@
         "Mid-Century Modern",
         "Bohemian",
       ];
-        const selectedKeywords = [];
-      
-        function updateKeywordList() {
-          const keywordsList = document.getElementById("keywords");
-          keywordsList.innerHTML = "";
-      
-          availableKeywords.forEach((keyword) => {
-            const li = document.createElement("li");
-            li.innerHTML = `<button onclick="selectKeyword('${keyword}')">${keyword}</button>`;
-            keywordsList.appendChild(li);
-          });
-      
-          const selectedKeywordsList =
-            document.getElementById("selectedKeywords");
-          selectedKeywordsList.innerHTML = "";
-      
-          selectedKeywords.forEach((keyword) => {
-            const li = document.createElement("li");
-            li.textContent = keyword;
-            selectedKeywordsList.appendChild(li);
-          });
-        }
-      
-        function selectKeyword(keyword) {
-          if (
-            selectedKeywords.length < 5 &&
-            !selectedKeywords.includes(keyword)
-          ) {
-            selectedKeywords.push(keyword);
-            updateKeywordList();
-          }
-        }
-      
-        function nextSelection() {
-          if (selectedKeywords.length > 0) {
-            // Redirect to end.html
-            window.location.href = 'end.html';
-          } else {
-            alert("Please select at least one keyword before Nexting.");
-          }
-        }
-      
-        window.onload = updateKeywordList;
-      </script>
+      const selectedKeywords = [];
 
+      function updateKeywordList() {
+        const keywordsList = document.getElementById("keywords");
+        keywordsList.innerHTML = "";
+
+        availableKeywords.forEach((keyword) => {
+          const li = document.createElement("li");
+          li.innerHTML = `<button onclick="selectKeyword('${keyword}')">${keyword}</button>`;
+          keywordsList.appendChild(li);
+        });
+
+        const selectedKeywordsList =
+          document.getElementById("selectedKeywords");
+        selectedKeywordsList.innerHTML = "";
+
+        selectedKeywords.forEach((keyword) => {
+          const li = document.createElement("li");
+          li.textContent = keyword;
+          selectedKeywordsList.appendChild(li);
+        });
+      }
+
+      function selectKeyword(keyword) {
+        if (
+          selectedKeywords.length < 5 &&
+          !selectedKeywords.includes(keyword)
+        ) {
+          selectedKeywords.push(keyword);
+          updateKeywordList();
+        }
+      }
+
+      function nextSelection() {
+        if (selectedKeywords.length > 0) {
+          // Redirect to end.html
+          window.location.href = "end.html";
+        } else {
+          alert("Please select at least one keyword before Nexting.");
+        }
+      }
+
+      window.onload = updateKeywordList;
+    </script>
   </body>
 </html>
